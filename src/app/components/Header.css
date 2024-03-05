@@ -1,0 +1,166 @@
+.imgcarousel{
+  height: 30vw;
+  width: 30vw;
+  object-fit: cover;
+}
+.curved-carousel-container{
+height: 60vh;
+}
+.dimmed{
+  transition: ease-in-out 1s;
+  opacity: 0.3;
+}
+.active{
+  transition: ease-in-out 1s;
+  border-radius: 5px;
+}
+.slides {
+  cursor: grab;
+}
+.slides::before,
+.slides::after{
+  z-index: 2;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  translate: -50% 0;
+  width: 800vw;
+  height: 800vw;
+  border-radius: 50%;
+}
+
+.slides::before{
+  top: -795vw;
+}
+
+.slides::after{
+  bottom: -795vw;
+}
+  
+  .certificate-item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .certificate-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .certificate-item:hover .certificate-description {
+    opacity: 1;
+  }
+  
+  .certificate-item:hover img {
+    filter: blur(4px);
+  }
+  
+  .white-divider {
+    width: 100%;
+    height: 1px; /* Atur ketebalan sesuai kebutuhan */
+    background-color: white;
+  }
+
+  .three-d-text {
+    position: relative;
+  }
+  
+  .three-d-text h1 {
+    transform: perspective(400px) rotateX(20deg);
+    transform-style: preserve-3d;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Adjust the values as needed */
+  }
+  @keyframes flickerAnimation {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0.3;
+    }
+    50% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .glow-text {
+    animation: flickerAnimation 1s infinite;
+  }
+  
+  
+  .text-shadow-3ds {
+    text-shadow: 0 0 10px rgba(242, 242, 242, 0.8);
+  }
+
+  .textshadow3ds {
+    text-shadow: 0 0 10px rgba(239, 0, 0, 0.8);
+  }
+.curved-carousel-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.party-mode {
+  animation: blink 2s ease-in-out infinite alternate;
+}
+@keyframes blink {
+  0% {
+    background-color: #14012c; 
+    color: rgb(0, 30, 255);
+  }
+  50% {
+    background-color: #f4f4f41c;
+    color: rgb(162, 0, 255);
+  }
+  100% {
+    background-color: #b300ff26; 
+  }
+}
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  outline: none;
+  opacity: 1;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+input[type="range"]:hover {
+  opacity: 1;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: red; 
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: red;
+  cursor: pointer;
+}
