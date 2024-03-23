@@ -1,10 +1,10 @@
 import React from "react";
-import  SecreteComp  from "../components/SecreteComp";
+import SecreteComp from "../components/SecreteComp";
 export const secrete = () => {
   return (
     <>
-    <SecreteComp/>
+      <SecreteComp />
     </>
   );
 };
-export default secrete
+export default secrete;
