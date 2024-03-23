@@ -14,6 +14,16 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@font-face {
+  font-family: 'shentt';
+  src: url('./font/thermidava.black.ttf') format('truetype'); /* Perbaikan format */
+}
+
+.shentpuro {
+  font-family: 'shentt';
+}
+
+
 
 
 @media (prefers-color-scheme: light) {

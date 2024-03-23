@@ -8,7 +8,7 @@ import Skillset from "./Skillset";
 import Experience from "./Experience";
 import Cv from "./Cv";
 import Projects from "./Projects";
-
+import SideText from "./SideText";
 export const Header = () => {
   useEffect(() => {
     AOS.init();
@@ -39,16 +39,23 @@ export const Header = () => {
             Hello, its me Giffa!
           </h4>
           <h1
-            className="text-[10rem] font-bold text-shadow-3d text-red-500 parallax"
+            className="shentpuro text-[10rem] font-extrabold text-shadow-3d text-red-500 parallax"
             data-speed="0.35"
           >
             FRONT-
-            <span data-aos-duration="3000" data-aos="fade-left" className="text-white flickerAnimation glow-text text-shadow-3ds">
+            <span
+              data-aos-duration="3000"
+              data-aos="fade-left"
+              className="text-white flickerAnimation glow-text text-shadow-3ds"
+            >
               END
             </span>
           </h1>
         </div>
-        <div className="parallax gap-12 w-auto px-36 -z-50 flex absolute justify-center items-center" data-speed="0.2">
+        <div
+          className="parallax gap-12 w-auto px-36 -z-50 flex absolute justify-center items-center"
+          data-speed="0.2"
+        >
           <div className="opacity-40">
             <img src="./city1.jpeg" alt="city1" />
           </div>
@@ -94,7 +101,7 @@ export const Header = () => {
       <div class="mt-80 px-40">
         <div className=" ">
           <div className="parallax px-44" data-speed="-0.1">
-            <h1 className="font-bold text-[3rem]">
+            <h1 className="font-bold text-[3rem] ">
               About<span className="text-red-500">Me</span>
             </h1>
           </div>
@@ -103,11 +110,7 @@ export const Header = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-end items-end">
-      <div className="parallax w-32" data-speed="-0.3">
-      <img src="./flyingboy.png" className="w-48" alt="boy" />
-      </div>
-    </div>
+      <SideText />
       <div class="mt-40 px-40">
         <div className="grid ">
           <div className="parallax px-44" data-speed="-0.09">
@@ -115,7 +118,7 @@ export const Header = () => {
               Skill<span className="text-red-500">Set</span>
             </h1>
             <p>
-            Over the past three years, I've dedicated significant time and
+              Over the past three years, I've dedicated significant time and
               effort to exploring various programming languages, deepening my
               understanding of fundamental coding concepts. Additionally, I've
               gained valuable hands-on experience through active participation
@@ -134,7 +137,6 @@ export const Header = () => {
             <h1 className="font-bold text-[3rem]">
               <span className="text-red-500">Pro</span>ject
             </h1>
-            
           </div>
           <div className="text-sm mb-32">
             <Projects />
@@ -148,14 +150,11 @@ export const Header = () => {
       </div>
       <div class="mt-80 px-40">
         <div className=" gap-9 justify-between">
-          <div
-            className="parallax px-44 mb-24 "
-
-          >
+          <div className="parallax px-44 mb-24 ">
             <h1 className="font-bold text-[4rem]">
               <span className="text-red-500">Ex</span>perience
             </h1>
-            <p className="parallax" data-speed="-0.0" >
+            <p className="parallax" data-speed="-0.0">
               Over the past three years, I've dedicated significant time and
               effort to exploring various programming languages, deepening my
               understanding of fundamental coding concepts. Additionally, I've
@@ -165,30 +164,39 @@ export const Header = () => {
             </p>
           </div>
           <div className="parallax">
-          <Experience />
+            <Experience />
           </div>
-         
         </div>
       </div>
       <div className="-z-50 absolute  w-2/3 flex justify-between items-between bg-cover">
-      <div>
-      <img className="bg-cover w-full parallax flex justify-center items-center" data-speed="0.1" src="./libra.png" alt="" />
-      </div>
         <div>
-      <img className="bg-cover w-full   flex justify-center items-center parallax" data-speed="-0.2" src="./sign1.png" alt="" />
-      </div>
+          <img
+            className="bg-cover w-full parallax flex justify-center items-center"
+            data-speed="0.1"
+            src="./libra.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            className="bg-cover w-full   flex justify-center items-center parallax"
+            data-speed="-0.2"
+            src="./sign1.png"
+            alt=""
+          />
+        </div>
       </div>
       <div class="px-16 mt-48">
-        <div className="flex gap-9 justify-between">
+        <div>
           <div
-            className="parallax flex justify-center items-center"
-            data-speed="-0.1"
+            className=" flex  justify-center items-center"
+            data-speed=""
           >
             <h1 className="font-bold text-[4rem]">
               <span className="text-red-500">C</span>ertificate
             </h1>
           </div>
-          <div className="text-sm  px-40">
+          <div className="text-sm   px-40">
             <Certificates className="parallax" />
           </div>
         </div>
@@ -204,22 +212,11 @@ export const Header = () => {
           />
         </div>
       </div>
-      <div className="grid justify-center items-center mt-36">
-        
-          <div
-            className=" flex justify-center items-center"
-          >
-            <h1 className="font-bold text-[4rem]">
-              <span className="text-red-500">C</span>V
-            </h1>
-          </div>
-      <Cv/>
-      </div>
       <div className="flex justify-end items-end">
-      <div className="parallax w-32" data-speed="-0.2">
-      <img src="./reachsky.png" className="w-48" alt="boy" />
+        <div className="parallax w-32" data-speed="-0.2">
+          <img src="./reachsky.png" className="w-48" alt="boy" />
+        </div>
       </div>
-    </div>
     </>
   );
 };
