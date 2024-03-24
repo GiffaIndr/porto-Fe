@@ -16,6 +16,7 @@ export const SecreteComp = () => {
               <h1 className="text-2xl font-bold text-gray-700">
               (◍•ᴗ•◍)
               </h1>
+              <p className="text-sm mt-2 text-gray-700">Selamat Ujikom Sayang ❣</p>
               <p className="text-sm mt-2 text-gray-700"> 09-8-05</p>
            
             </div>
