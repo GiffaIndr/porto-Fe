@@ -39,7 +39,7 @@ export const Header = () => {
             Hello, its me Giffa!
           </h4>
           <h1
-            className="shentpuro text-[10rem] font-extrabold text-shadow-3d text-red-500 parallax"
+            className=" text-[10rem] font-bold text-shadow-3d text-red-500 parallax"
             data-speed="0.35"
           >
             FRONT-
@@ -94,7 +94,7 @@ export const Header = () => {
         <img
           className="absolute w-80  mt-12 parallax"
           data-speed="-0.25"
-          src="./profilegrey.png"
+          src="./"
           alt=""
         />
       </div>
