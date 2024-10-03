@@ -23,8 +23,6 @@ export const Experience = () => {
         onChange={(inView, entry) => {
           if (inView) {
             setIsVisible(true);
-          } else {
-            setIsVisible(false);
           }
         }}
       >
