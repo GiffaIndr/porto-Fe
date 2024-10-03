@@ -1,0 +1,14 @@
+.linkedIn {
+  background: linear-gradient(to right, rgb(99, 82, 255), rgb(0, 183, 255));
+  padding: 12px;
+  margin: 15px;
+  height: 6vh;
+  border-radius: 15px;
+}
+.instagram {
+  background: linear-gradient(to right,#833ab4, #C13584);
+  padding: 12px;
+  margin: 15px;
+  height: 6vh;
+  border-radius: 15px;
+}

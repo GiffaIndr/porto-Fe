@@ -100,12 +100,12 @@ export const Header = () => {
       </div>
       <div class="mt-80 px-40">
         <div className=" ">
-          <div className="parallax px-44" data-speed="-0.1">
+          <div className="parallax " data-speed="-0.1">
             <h1 className="font-bold text-[3rem] ">
               About<span className="text-red-500">Me</span>
             </h1>
           </div>
-          <div className="text-sm px-44 ">
+          <div className="text-sm  ">
             <Aboutme />
           </div>
         </div>
@@ -113,7 +113,7 @@ export const Header = () => {
       <SideText />
       <div class="mt-40 px-40">
         <div className="grid ">
-          <div className="parallax px-44" data-speed="-0.09">
+          <div className="parallax " data-speed="-0.09">
             <h1 className="font-bold text-[3rem]">
               Skill<span className="text-red-500">Set</span>
             </h1>
@@ -133,7 +133,7 @@ export const Header = () => {
       </div>
       <div class="mt-40 px-40">
         <div className="grid ">
-          <div className="parallax px-44" data-speed="-0.04">
+          <div className="parallax " data-speed="-0.04">
             <h1 className="font-bold text-[3rem]">
               <span className="text-red-500">Pro</span>ject
             </h1>
@@ -150,9 +150,9 @@ export const Header = () => {
       </div>
       <div class="mt-80 px-40">
         <div className=" gap-9 justify-between">
-          <div className="parallax px-44 mb-24 ">
+          <div className="parallax  mb-24 ">
             <h1 className="font-bold text-[4rem]">
-              <span className="text-red-500">Ex</span>perience
+              <span className="text-red-500">Ex</span>perience (hanya prototype)
             </h1>
             <p className="parallax" data-speed="-0.0">
               Over the past three years, I've dedicated significant time and

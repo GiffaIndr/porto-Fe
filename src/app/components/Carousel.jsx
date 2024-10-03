@@ -42,39 +42,60 @@ const Carousel = () => {
     <>
       <div className="curved-carousel-container">
         <Slider {...settings}>
-          <div>
+        <div>
             <img
-              src="./city1.jpeg"
+              src="./yang1.jpeg"
               alt="airpangea"
               className={`slides imgcarousel ${currentSlide !== 0 ? 'dimmed' : 'active'}`}
             />
           </div>
           <div>
             <img
+              src="./yang2.jpeg"
+              alt="airpangea"
+              className={`slides imgcarousel ${currentSlide !== 1 ? 'dimmed' : 'active'}`}
+            />
+          </div>
+          <div>
+            <img
+              src="./yang3.jpeg"
+              alt="airpangea"
+              className={`slides imgcarousel ${currentSlide !== 2 ? 'dimmed' : 'active'}`}
+            />
+          </div>
+          <div>
+            <img
+              src="./city1.jpeg"
+              alt="airpangea"
+              className={`slides imgcarousel ${currentSlide !== 3 ? 'dimmed' : 'active'}`}
+            />
+          </div>
+          <div>
+            <img
               src="./city2.jpeg"
               alt="city"
-              className={`slides imgcarousel ${currentSlide !== 1 ? 'dimmed' : 'active'}`}
+              className={`slides imgcarousel ${currentSlide !== 4 ? 'dimmed' : 'active'}`}
             />
           </div>
           <div>
             <img
               src="./city3.jpeg"
               alt="citygboy"
-              className={`slides imgcarousel ${currentSlide !== 2 ? 'dimmed' : 'active'}`}
+              className={`slides imgcarousel ${currentSlide !== 5 ? 'dimmed' : 'active'}`}
             />
           </div>
           <div>
             <img
               src="./city4.jpeg"
               alt="citygboy"
-              className={`slides imgcarousel ${currentSlide !== 3 ? 'dimmed' : 'active'}`}
+              className={`slides imgcarousel ${currentSlide !== 6 ? 'dimmed' : 'active'}`}
             />
           </div>
           <div>
             <img
               src="./city5.jpeg"
               alt="citygboy"
-              className={`slides imgcarousel ${currentSlide !== 4 ? 'dimmed' : 'active'}`}
+              className={`slides imgcarousel ${currentSlide !== 7 ? 'dimmed' : 'active'}`}
             />
           </div>
         </Slider>

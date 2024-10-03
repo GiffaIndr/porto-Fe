@@ -1,8 +1,17 @@
+import Paragraph from "antd/es/skeleton/Paragraph";
 import React, { useEffect } from "react";
+import { CiLinkedin } from "react-icons/ci";
+import { FaInstagram } from "react-icons/fa";
+
+import './main.css'
 
 export const Aboutme = () => {
   return (
     <>
+    <div className="flex gap-24">
+      <img src="./newprofile.jpeg" alt=""  width={500}/>
+    <paragraph className="text-lg grid gap-7">
+      <div>
       <p className="mb-6">
         {" "}
         I am Syaikhani Giffa Indrawan, commonly known as Giffa. Currently, I am
@@ -24,6 +33,13 @@ export const Aboutme = () => {
         work environment. Thank you for this opportunity, and I look forward to
         collaborating and growing together in the future.
       </p>
+      </div>
+      <div className="flex  justify-center">
+        <a className="linkedIn flex" href="https://www.linkedin.com/in/syaikhanigiffa/"><CiLinkedin size={30}/></a>
+        <a className="instagram flex" href="https://www.instagram.com/giffaa_indr/"><FaInstagram size={30}/></a>
+      </div>
+      </paragraph>
+    </div>
     </>
   );
 };

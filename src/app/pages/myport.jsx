@@ -12,7 +12,7 @@ const Myport = () => {
       document.body.classList.add('heavy-scroll');
       setTimeout(() => {
         document.body.classList.remove('heavy-scroll');
-      }, 1000); // Sesuaikan durasi dengan kebutuhan Anda
+      }, 1000);
     };
 
     window.addEventListener('scroll', scrollHandler);
