@@ -87,7 +87,7 @@ export const Experience = () => {
               <p>ini disini ipsum`ksnfffskdfjfjdfskjdfksjdfksjdfjksf</p>
             </div>
             <div className="mt-2" data-aos="fade-right">
-              <h1 className="text-lg font-bold text-red-500">
+              <h1 className="text-lg fmont-bold text-red-500">
                 Comunication with Team
               </h1>
               <p>ini disini ipsum`ksnfffskdfjfjdfskjdfksjdfksjdfjksf</p>
