@@ -1,7 +1,8 @@
 import Paragraph from "antd/es/skeleton/Paragraph";
 import React, { useEffect } from "react";
 import { CiLinkedin } from "react-icons/ci";
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaGithub } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 import './main.css'
 
@@ -36,12 +37,12 @@ export const Aboutme = () => {
       </div>
       <div className="flex gap-4">
       <div className=" ">
-        <a className="linkedIn flex justify-between py-2 px-4" href="https://www.linkedin.com/in/syaikhanigiffa/"><CiLinkedin size={30}/> <p className="justify-right text-right"> Syaikhani Giffa Indrawan</p></a>
-        <a className="instagram flex justify-between py-2 px-4" href="https://www.instagram.com/giffaa_indr/"><FaInstagram size={30}/> <p> Giffaa_indr</p></a>
+        <a className="linkedIn flex justify-between py-2 px-4" href="https://www.linkedin.com/in/syaikhanigiffa/"><CiLinkedin size={30}/> <p className="justify-right text-right text-[13px]"> Syaikhani Giffa Indrawan</p></a>
+        <a className="instagram flex justify-between py-2 px-4 mt-2" href="https://www.instagram.com/giffaa_indr/"><FaInstagram size={30}/> <p className="justify-right text-right text-[13px]"> Giffaa_indr</p></a>
       </div>
       <div className=" ">
-        <a className="linkedIn flex justify-between py-2 px-4" href="https://www.linkedin.com/in/syaikhanigiffa/"><CiLinkedin size={30}/> <p className="justify-right text-right"> Syaikhani Giffa Indrawan</p></a>
-        <a className="instagram flex justify-between py-2 px-4" href="https://www.instagram.com/giffaa_indr/"><FaInstagram size={30}/> <p> Giffaa_indr</p></a>
+        <a className="github flex justify-between py-2 px-4" href="https://www.linkedin.com/in/syaikhanigiffa/"><FaGithub size={30} /><p className="justify-right text-right text-[13px]"> GiffaIndr</p></a>
+        <a className="twitter flex justify-between py-2 px-4 mt-2" href="https://www.instagram.com/giffaa_indr/"><FaXTwitter size={30}/> <p className="justify-right text-right text-[13px]"> finndrawan</p></a>
       </div>
       </div>
       </paragraph>
