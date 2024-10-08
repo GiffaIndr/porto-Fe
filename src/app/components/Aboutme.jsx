@@ -10,7 +10,7 @@ export const Aboutme = () => {
     <>
     <div className="flex gap-24">
       <img src="./newprofile.jpeg" alt=""  width={500}/>
-    <paragraph className="text-lg grid gap-7">
+    <paragraph className=" grid gap-7">
       <div>
       <p className="mb-6">
         {" "}

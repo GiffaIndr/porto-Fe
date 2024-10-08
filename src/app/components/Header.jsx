@@ -33,15 +33,16 @@ export const Header = () => {
 
   return (
     <>
-      <div className="flex justify-center items-center mt-20">
+      <div className="px-40 flex justify-left items-center mt-20">
         <div className="text-center">
-          <h4 className="font-bold text-xl mb-0 parallax" data-speed="0.5">
-            Hello, its me Giffa!
-          </h4>
           <h1
-            className=" text-[10rem] font-bold text-shadow-3d text-red-500 parallax"
+            className=" text-[4rem] font-bold text-shadow-3d text-red-500 parallax"
             data-speed="0.35"
           >
+              <h4 className="text-left font-bold text-xl mb-0 parallax text-white">
+            Hello! <br />
+           its me Giffa 
+          </h4><span className="text-xl text-white">a </span>
             FRONT-
             <span
               data-aos-duration="3000"
@@ -53,24 +54,24 @@ export const Header = () => {
           </h1>
         </div>
         <div
-          className="parallax gap-12 w-auto px-36 -z-50 flex absolute justify-center items-center"
+          className=" parallax gap-5 px-24 -z-50 flex absolute justify-center items-center"
           data-speed="0.2"
         >
           <div className="opacity-40">
-            <img src="./city1.jpeg" alt="city1" />
-          </div>
-          <div className="opacity-30">
-            <img src="./city2.jpeg" alt="city2" />
-          </div>
-          <div className="opacity-30">
-            <img src="./city3.jpeg" alt="city3" />
+            <img src="./city1.jpeg" alt="city1"/>
           </div>
           <div className="opacity-40">
+            <img src="./city2.jpeg" alt="city2" />
+          </div>
+          <div className="opacity-90">
+            <img src="./city3.jpeg" alt="city3" />
+          </div>
+          <div className="opacity-90">
             <img src="./city5.jpeg" alt="city5" />
           </div>
         </div>
       </div>
-      <div class="flex justify-around ">
+      <div class="px-40 flex justify-left ">
         <h1
           className="text-[1rem] font-bold mt-0 text-shadow-3d text-red-50-500 parallax"
           data-speed="0.1"
@@ -111,22 +112,14 @@ export const Header = () => {
         </div>
       </div>
       <SideText />
-      <div class="mt-40 px-40">
+      <div class="mt-96 px-40">
         <div className="grid ">
           <div className="parallax " data-speed="-0.09">
             <h1 className="font-bold text-[3rem]">
               Skill<span className="text-red-500">Set</span>
             </h1>
-            <p>
-              Over the past three years, I've dedicated significant time and
-              effort to exploring various programming languages, deepening my
-              understanding of fundamental coding concepts. Additionally, I've
-              gained valuable hands-on experience through active participation
-              in industry classes, providing practical insights into the
-              application of technology in the professional sphere.
-            </p>
           </div>
-          <div className="text-sm px-20 mb-32">
+          <div className="text-sm ">
             <Skillset />
           </div>
         </div>
@@ -144,24 +137,13 @@ export const Header = () => {
         </div>
       </div>
       <div className="absolute">
-        <div className="parallax -z-50" data-speed="0.1">
-          <img src="./sign2.png" alt="" />
-        </div>
       </div>
-      <div class="mt-80 px-40">
+      <div class="mt-40 px-40">
         <div className=" gap-9 justify-between">
           <div className="parallax  mb-24 ">
             <h1 className="font-bold text-[4rem]">
               <span className="text-red-500">Ex</span>perience (hanya prototype)
             </h1>
-            <p className="parallax" data-speed="-0.0">
-              Over the past three years, I've dedicated significant time and
-              effort to exploring various programming languages, deepening my
-              understanding of fundamental coding concepts. Additionally, I've
-              gained valuable hands-on experience through active participation
-              in industry classes, providing practical insights into the
-              application of technology in the professional sphere.
-            </p>
           </div>
           <div className="parallax">
             <Experience />
@@ -186,7 +168,7 @@ export const Header = () => {
           />
         </div>
       </div>
-      <div class="px-16 mt-48">
+      <div class="px-16 mt-40">
         <div>
           <div
             className=" flex  justify-center items-center"

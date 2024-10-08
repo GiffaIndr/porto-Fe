@@ -51,6 +51,7 @@ export const Experience = () => {
         ))}
       </div>{" "} */}
       <Carousel />
+      
       <div className="white-divider mt-16"></div>
       <div className="flex justify-between gap-48 mt-10 px-20">
         <div>
