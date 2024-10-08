@@ -34,9 +34,15 @@ export const Aboutme = () => {
         collaborating and growing together in the future.
       </p>
       </div>
-      <div className="flex  justify-center">
-        <a className="linkedIn flex" href="https://www.linkedin.com/in/syaikhanigiffa/"><CiLinkedin size={30}/></a>
-        <a className="instagram flex" href="https://www.instagram.com/giffaa_indr/"><FaInstagram size={30}/></a>
+      <div className="flex gap-4">
+      <div className=" ">
+        <a className="linkedIn flex justify-between py-2 px-4" href="https://www.linkedin.com/in/syaikhanigiffa/"><CiLinkedin size={30}/> <p className="justify-right text-right"> Syaikhani Giffa Indrawan</p></a>
+        <a className="instagram flex justify-between py-2 px-4" href="https://www.instagram.com/giffaa_indr/"><FaInstagram size={30}/> <p> Giffaa_indr</p></a>
+      </div>
+      <div className=" ">
+        <a className="linkedIn flex justify-between py-2 px-4" href="https://www.linkedin.com/in/syaikhanigiffa/"><CiLinkedin size={30}/> <p className="justify-right text-right"> Syaikhani Giffa Indrawan</p></a>
+        <a className="instagram flex justify-between py-2 px-4" href="https://www.instagram.com/giffaa_indr/"><FaInstagram size={30}/> <p> Giffaa_indr</p></a>
+      </div>
       </div>
       </paragraph>
     </div>

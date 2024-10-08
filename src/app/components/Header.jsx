@@ -40,7 +40,8 @@ export const Header = () => {
             data-speed="0.35"
           >
               <h4 className="text-left font-bold text-xl mb-0 parallax text-white">
-            Hello! <br />
+              (v.Alpha)
+            Hello!<br />
            its me Giffa 
           </h4><span className="text-xl text-white">a </span>
             FRONT-
